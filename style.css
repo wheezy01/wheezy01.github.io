@@ -5,13 +5,13 @@
 }
 
 /* Custom card styling */
-.card {
+/* .card {
     border: none;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     margin-bottom: 20px;
-}
+} */
 
 .card:hover {
     transform: scale(1.05);
@@ -46,4 +46,8 @@
 .custom-img-size {
     width: 200px;
     height: auto;
+}
+
+.card {
+    margin-bottom: 20px; /* Adjust this value to increase or decrease spacing */
 }
