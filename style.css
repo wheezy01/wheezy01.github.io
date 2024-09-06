@@ -5,13 +5,14 @@
 }
 
 /* Custom card styling */
-/* .card {
+.card {
+    margin-bottom: 20px; /* Adjust this value to increase or decrease spacing */
+    background-color: #f8d7da; /* Light red background */
     border: none;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
-    margin-bottom: 20px;
-} */
+}
 
 .card:hover {
     transform: scale(1.05);
@@ -20,13 +21,12 @@
 .card-img-top {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    /* Remove fixed height and object-fit so it doesn’t conflict */
 }
 
 .card-img-top.custom-img-size {
     width: 200px !important;
     height: auto !important;
-    object-fit: cover; /* If you want to keep this for all images */
+    object-fit: cover; /* Keep this for all images */
 }
 
 .card-body {
@@ -46,8 +46,4 @@
 .custom-img-size {
     width: 200px;
     height: auto;
-}
-
-.card {
-    margin-bottom: 20px; /* Adjust this value to increase or decrease spacing */
 }
