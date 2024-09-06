@@ -20,8 +20,13 @@
 .card-img-top {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    height: 200px;
-    object-fit: cover;
+    /* Remove fixed height and object-fit so it doesn’t conflict */
+}
+
+.card-img-top.custom-img-size {
+    width: 200px !important;
+    height: auto !important;
+    object-fit: cover; /* If you want to keep this for all images */
 }
 
 .card-body {
