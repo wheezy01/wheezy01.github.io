@@ -1,6 +1,6 @@
 /* Force custom styles to override Bootstrap */
 .carousel-item img {
-    height: 100 !important; /* Force this height to be applied */
+    height: 200 !important; /* Force this height to be applied */
     object-fit: cover !important;
 }
 
